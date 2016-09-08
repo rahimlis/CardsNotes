@@ -3,6 +3,7 @@ This is a special project created using Laravel 5.3 version. It includes several
 user login/register system and administrator type of user (which has more permissions than a regular one). So in the project you can find views with conditions
 (they regulate who can access some type of action). Additionally there is MustBeAdministrator middleware which checks if user is admin. There is card and note
 addition forms with pre-configured csrf fields. The project is production ready. Feel free to start your own projects from this one. 
+    **Note**: Use php artisan tinker to create an admin. You can do it by setting the user type to 'admin'
 
 # Laravel PHP Framework
 
